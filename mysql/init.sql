@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS appdb;
+
+USE appdb;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100)
+);
+
+INSERT INTO users(name)
+VALUES
+('John'),
+('Alice'),
+('Bob');

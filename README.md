@@ -435,6 +435,25 @@ If an EC2 instance becomes unhealthy, the Load Balancer automatically stops rout
 
 ---
 
+# 🧪 Testing
+
+The following scenarios were successfully tested.
+
+| Test Case | Status |
+|-----------|--------|
+| Flask application running locally | ✅ |
+| Docker containers running | ✅ |
+| RDS database connection | ✅ |
+| EC2 deployment | ✅ |
+| Application Load Balancer | ✅ |
+| Target Group health checks | ✅ |
+| Auto Scaling Group | ✅ |
+| CloudWatch Dashboard | ✅ |
+| CloudWatch Alarms | ✅ |
+| SNS Email Notification | ✅ |
+| S3 Database Backup | ✅ |
+| High Availability Failover | ✅ |
+
 # 📊 Monitoring & Alerting
 
 Amazon CloudWatch monitors the infrastructure using dashboards and alarms.

@@ -256,7 +256,7 @@ The application is deployed on multiple EC2 instances managed by an Auto Scaling
 
 ### CloudWatch Alarms
 
-<img src="./screenshots/cloudwatch-alarms.png" width="100%">
+<img src="./screenshots/alarms.png" width="100%">
 
 </td>
 
